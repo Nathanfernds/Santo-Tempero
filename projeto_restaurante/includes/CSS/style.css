@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1E2A38;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+.retornar-btn {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 15px;
+    background-color: #FFD700;
+    color: #1E2A38;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.retornar-btn:hover {
+    background-color: #ffcc00;
+}
+
+.item-container, .item-details {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.item-container h2, .item-details h2 {
+    font-size: 28px;
+    color: #1E2A38;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item img, .item-details img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.item h4, .item-details h2 {
+    font-size: 1.2em;
+    color: #FFD700;
+    margin: 10px 0;
+}
+
+.item p, .item-details p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.item-details .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700;
+    margin-bottom: 30px;
+}
+
+.item-details .btn {
+    background-color: #FFD700;
+    color: #1E2A38;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.item-details .btn:hover {
+    background-color: #ffcc00;
+}
+
+footer {
+    background-color: #1E2A38;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
